@@ -13,10 +13,15 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+/*-------------- Header's styles -----------------*/
 header {
     height: 73px;
     display: flex;
     background-color: white;
+    border-bottom: 1px solid var(--gray);
+    justify-content: space-between;
+    margin-inline-start: 122px;
+    margin-inline-end: 112px;
     /* align-items: center; */
 }
 
@@ -70,7 +75,7 @@ header {
 .nav {
     display: flex;
     align-items: center;
-    margin-inline-start: 122px;
+  
 }
 
 .nav_list {
@@ -91,8 +96,6 @@ header {
 } 
 
 .header_right {
-    margin-inline-start: 213px;
-    margin-inline-end: 112px;
     display: flex;
     align-items: center;
     column-gap: 28px;
@@ -110,6 +113,16 @@ header {
     font-weight: 500;
     color: var(--gray);
 }
+
 .header_right button span {
     margin-inline-end: 10px;
 }
+
+/*-------------- /Header's styles -----------------*/
+
+/*-------------- Main's styles ------------------*/
+main {
+    background-color: #FCFCFD;
+}
+
+/*-------------- /Main's styles ------------------*/
