@@ -1,0 +1,115 @@
+:root {
+    --purple: #623EB9;
+    --gray: #344054;
+}
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    height: 73px;
+    display: flex;
+    background-color: white;
+    /* align-items: center; */
+}
+
+.nav .logo {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border: 0.2px solid #D0D5DD;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: 10px;
+    /* background-color:#269; */
+    /* background-image: linear-gradient(white 2px, transparent 2px),
+    linear-gradient(90deg, white 2px, transparent 2px),
+    linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px; */
+
+}
+
+.logo_circle {
+    width: 28.08px;
+    height: 28.08px;
+    border: 0.2px solid #D0D5DD;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_circle__purple {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--purple);
+}
+
+.logo_blur {
+    width: 32px;
+    height: 16px;
+    border-radius: 0px 0px 8px 8px;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    inset-block-end: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-inline-start: 122px;
+}
+
+.nav_list {
+    display: flex;
+    margin-inline-start: 30px;
+}
+
+.nav_list li {
+    list-style: none;
+    margin-inline-end: 28px;
+} 
+
+.nav_list li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #344054;
+} 
+
+.header_right {
+    margin-inline-start: 213px;
+    margin-inline-end: 112px;
+    display: flex;
+    align-items: center;
+    column-gap: 28px;
+}
+.header_right button {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #EAECF0;
+    border-radius: 8px;
+    background-color: #FFFF;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray);
+}
+.header_right button span {
+    margin-inline-end: 10px;
+}
