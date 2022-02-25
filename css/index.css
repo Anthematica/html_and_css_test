@@ -320,6 +320,8 @@ main {
 .deposits_and_cards {
     display: flex;
     justify-content: center;
+    margin-block-end: 40px;
+    column-gap: 24px;
 }
 
 .background-lines {
@@ -504,15 +506,72 @@ main {
     border-radius: 4px;
 }
 
-.deposits_and_cards{
-    margin-block-end: 40px;
-}
-
 .button-container {
     display: flex;
     justify-content: flex-end;
     height: 17.5%;
     align-items: center;
     border-top: 1px solid #EAECF0;
+}
+
+.recents_deposits {
+    width: 400px;
+    height: 718px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border: 1px solid #EAECF0;
+    margin-block-start: 24px;
+    padding: 24px;
+}
+
+.recents_deposits_title {
+    display: flex;
+    justify-content: space-between;
+    margin-block-end: 21px;
+}
+.recents_deposits_title p {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gray-900);
+}
+
+.deposits_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    border-bottom: 1px solid #EAECF0;
+}
+
+.expiry_info {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.expiry_info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray-900);
+    margin-block-end: 3px;
+} 
+
+.expiry_info .expiry_date {
+    color: var(--gray--500);
+    font-weight: 400;
+}
+
+.amount_of_deposit {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--succes-700);
+}
+.show_more {
+    display: inline-block;
+    margin-block-start: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--purple);
+    text-decoration: none;
 }
 /*-------------- /Main's styles ------------------*/
