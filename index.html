@@ -60,16 +60,103 @@
                     <p>Here's your account details and deposits</p>
                 </div>
                <div class="account_details__buttons">
-                   <button class="button_template"><span></span>Deposit</button>
-                   <button class="button_template">Send funds</button>
+                   <button class="button_template details_button">
+                       <span>
+                            <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 0.833374V19.1667M10.1667 4.16671H3.91667C3.14312 4.16671 2.40125 4.474 1.85427 5.02098C1.30729 5.56796 1 6.30983 1 7.08337C1 7.85692 1.30729 8.59879 1.85427 9.14577C2.40125 9.69275 3.14312 10 3.91667 10H8.08333C8.85688 10 9.59875 10.3073 10.1457 10.8543C10.6927 11.4013 11 12.1432 11 12.9167C11 13.6903 10.6927 14.4321 10.1457 14.9791C9.59875 15.5261 8.85688 15.8334 8.08333 15.8334H1" stroke="#344054" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> 
+                       </span>
+                        Deposit
+                    </button>
+                   <button class="button_template details_button purple_button">Send funds</button>
                </div>
             </div>
 
             <div class="account_details_down">
-                <button class="button_template">12 month</button>
-                <button class="button_template">30 dias</button>
-                <button class="button_template">7 dias</button>
-                <button class="button_template">24 horas</button>
+                <div class="account_details_down_left_buttons">
+                    <button class="button_template dates_button">12 month</button>
+                    <button class="button_template dates_button dates_button2">30 dias</button>
+                    <button class="button_template dates_button">7 dias</button>
+                    <button class="button_template dates_button">24 horas</button>
+                </div>
+               
+                <div class="account_details_down_right_buttons">
+                    <button class="button_template select_dates_button"> 
+                        <span>
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.3333 1.66669V5.00002M5.66667 1.66669V5.00002M1.5 8.33335H16.5M3.16667 3.33335H14.8333C15.7538 3.33335 16.5 4.07955 16.5 5.00002V16.6667C16.5 17.5872 15.7538 18.3334 14.8333 18.3334H3.16667C2.24619 18.3334 1.5 17.5872 1.5 16.6667V5.00002C1.5 4.07955 2.24619 3.33335 3.16667 3.33335Z" stroke="#344054" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span> 
+                        Select dates
+                    </button>
+                    <button class="button_template filter_button"> 
+                        <span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 10H15M2.5 5H17.5M7.5 15H12.5" stroke="#344054" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span> 
+                        Filter
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="donuts_chart_cards">
+            <div class="card">
+                <div class="donut_chart">
+                </div>
+                <div class="donut_chart_info">
+                    <div  class="donut_chart_info_up">
+                        <div class="donut_chart_info_row1">
+                            <h1>Primary account</h1>
+                            <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M1.99999 8.83331C2.46023 8.83331 2.83332 8.46022 2.83332 7.99998C2.83332 7.53974 2.46023 7.16665 1.99999 7.16665C1.53975 7.16665 1.16666 7.53974 1.16666 7.99998C1.16666 8.46022 1.53975 8.83331 1.99999 8.83331Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                 <path d="M1.99999 2.99998C2.46023 2.99998 2.83332 2.62688 2.83332 2.16665C2.83332 1.70641 2.46023 1.33331 1.99999 1.33331C1.53975 1.33331 1.16666 1.70641 1.16666 2.16665C1.16666 2.62688 1.53975 2.99998 1.99999 2.99998Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                 <path d="M1.99999 14.6666C2.46023 14.6666 2.83332 14.2935 2.83332 13.8333C2.83332 13.3731 2.46023 13 1.99999 13C1.53975 13 1.16666 13.3731 1.16666 13.8333C1.16666 14.2935 1.53975 14.6666 1.99999 14.6666Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>  
+                        </div>
+                        <p>Current balance</p>
+                    </div>
+                    <div class="account_money">
+                        <h1>$40,206.20</h1>
+                        <div class="percentage"> 
+                            <span>
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 8.5V1.5M5 1.5L1.5 5M5 1.5L8.5 5" stroke="#12B76A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span> 
+                            3.4%
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="donut_chart">
+                </div>
+                <div class="donut_chart_info">
+                    <div  class="donut_chart_info_up">
+                        <div class="donut_chart_info_row1">
+                            <h1>Secondaryaccount</h1>
+                            <svg width="4" height="16" viewBox="0 0 4 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M1.99999 8.83331C2.46023 8.83331 2.83332 8.46022 2.83332 7.99998C2.83332 7.53974 2.46023 7.16665 1.99999 7.16665C1.53975 7.16665 1.16666 7.53974 1.16666 7.99998C1.16666 8.46022 1.53975 8.83331 1.99999 8.83331Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                 <path d="M1.99999 2.99998C2.46023 2.99998 2.83332 2.62688 2.83332 2.16665C2.83332 1.70641 2.46023 1.33331 1.99999 1.33331C1.53975 1.33331 1.16666 1.70641 1.16666 2.16665C1.16666 2.62688 1.53975 2.99998 1.99999 2.99998Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                 <path d="M1.99999 14.6666C2.46023 14.6666 2.83332 14.2935 2.83332 13.8333C2.83332 13.3731 2.46023 13 1.99999 13C1.53975 13 1.16666 13.3731 1.16666 13.8333C1.16666 14.2935 1.53975 14.6666 1.99999 14.6666Z" stroke="#98A2B3" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>  
+                        </div>
+                        <p>Current balance</p>
+                    </div>
+                    <div class="account_money">
+                        <h1>$6,421.10</h1>
+                        <div class="percentage"> 
+                            <span>
+                                <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 8.5V1.5M5 1.5L1.5 5M5 1.5L8.5 5" stroke="#12B76A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span> 
+                            2.0%
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>

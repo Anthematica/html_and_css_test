@@ -1,6 +1,15 @@
 :root {
-    --purple: #623EB9;
+    --purple: #7F56D9;
+    --primary-500:#9E77ED;
+    --primary-400:#B692F6;
+    --primary-300: #D6BBFB;
     --gray: #344054;
+    --gray-900: #101828;
+    --gray-700: #344054;
+    --gray--500: #667085;
+    --primary-100: #F4EBFF;
+    --succes-50: #ECFDF3;
+    --succes-700: #027A48;
 }
 * {
     border: 0;
@@ -120,6 +129,7 @@ header {
     color: var(--gray);
     box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
     cursor: pointer;
+    color: var(--gray-700);
 }
 
 .header_right button span {
@@ -134,12 +144,166 @@ header {
 /*-------------- Main's styles ------------------*/
 main {
     background-color: #FCFCFD;
+    height: 100vh;
+}
+
+.account_details {
     margin-inline-start: 112px;
     margin-inline-end: 112px;
-    justify-content: space-between;
 }
 .account_details__up {
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    margin-block-start: 48px;
+}
 
+.account_details__text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--gray-900);
+    margin-block-end: 4px;
+}
+
+.account_details__text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.account_details__buttons {
+    display: flex;
+    column-gap: 12px;
+}
+
+.details_button {
+    width: 112px;
+    height: 40px;
+}
+
+.details_button span {
+    margin-inline-end: 10px;
+}
+
+.purple_button {
+    background-color: var(--purple);
+    color: white;
+}
+
+.account_details_down {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-block-start: 24px;
+}
+.account_details_down_left_buttons {
+    display: flex;
+}
+
+.dates_button {
+    width: 102px;
+}
+
+.dates_button:nth-child(2), .dates_button:nth-child(3) {
+    border-radius: 0;
+}
+
+.dates_button:nth-child(1) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.dates_button:last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.account_details_down_right_buttons {
+    display: flex;
+    column-gap: 12px;
+}
+
+.select_dates_button {
+    width: 144px;
+}
+.select_dates_button span {
+    margin-inline-end: 10px;
+}
+.filter_button {
+    width: 102px;
+}
+
+.filter_button span {
+    margin-inline-end: 10px;
+}
+
+.donuts_chart_cards {
+    margin-block-start: 32px;
+    margin-inline-start: 112px;
+    margin-inline-end: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 596px;
+    height: 168px;
+    background-color: #FFFFFF;
+    border: 1px solid#EAECF0;
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    display: flex;
+    padding: 24px 24px
+}
+
+.donut_chart {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: radial-gradient(white 25%,transparent 25% 100%), 
+    conic-gradient(var(--purple) 0, var(--purple) 20%, var(--primary-500) 20%, var(--primary-500) 50%, var(--primary-400) 50%, var(--primary-400) 60%, var(--primary-300) 60%, var(--primary-300) 75%, var(--primary-100) 75%, var(--primary-100) 100%);
+    margin-inline-end: 24px;
+}
+
+.donut_chart_info_row1 {
+ display: flex;
+}
+
+.donut_chart_info_row1 h1 {
+    margin-inline-end: 249px;
+    margin-block-end: 24px;
+    font-size: 16px;
+    color: var(--gray-900);
+}
+
+.donut_chart_info_up p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--gray--500);
+    margin-block-end: 14px;
+}
+.account_money {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.account_money h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.percentage {
+    width: 68px;
+    height: 24px;
+    border-radius: 16px;
+    background-color: var(--succes-50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--succes-700);
+}
+
+.percentage span {
+    margin-inline-end: 6px;
 }
 /*-------------- /Main's styles ------------------*/
