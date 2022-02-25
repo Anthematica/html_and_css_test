@@ -106,7 +106,7 @@ header {
     align-items: center;
     column-gap: 28px;
 }
-.header_right button {
+.button_template{
     width: 150px;
     height: 40px;
     display: flex;
@@ -134,6 +134,12 @@ header {
 /*-------------- Main's styles ------------------*/
 main {
     background-color: #FCFCFD;
+    margin-inline-start: 112px;
+    margin-inline-end: 112px;
+    justify-content: space-between;
 }
+.account_details__up {
+    display: flex;
 
+}
 /*-------------- /Main's styles ------------------*/
