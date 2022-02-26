@@ -4,8 +4,12 @@
     --primary-400:#B692F6;
     --primary-300: #D6BBFB;
     --gray: #344054;
+    --gray-100: #F2F4F7;
     --gray-900: #101828;
+    --gray-600:#475467;
     --gray-700: #344054;
+    --gray-300: #D0D5DD;
+    --gray-400: #98A2B3;
     --gray--500: #667085;
     --primary-100: #F4EBFF;
     --succes-50: #ECFDF3;
@@ -287,9 +291,14 @@ main {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-image: radial-gradient(white 25%,transparent 25% 100%), 
+    background-image: radial-gradient(white 35%,transparent 35% 100%), 
     conic-gradient(var(--purple) 0, var(--purple) 20%, var(--primary-500) 20%, var(--primary-500) 50%, var(--primary-400) 50%, var(--primary-400) 60%, var(--primary-300) 60%, var(--primary-300) 75%, var(--primary-100) 75%, var(--primary-100) 100%);
     margin-inline-end: 24px;
+}
+
+.donut_chart2 {
+    background-image: radial-gradient(white 35%,transparent 35% 100%), 
+    conic-gradient(var(--gray-600) 0, var(--gray-600) 20%, var(--gray--500) 20%, var(--gray--500) 50%, var(--gray-400) 50%, var(--gray-400) 60%, var(--gray-300) 60%, var(--gray-300) 75%, var(--gray-100) 75%, var(--gray-100) 100%);
 }
 
 .donut_chart_info_row1 {
