@@ -22,6 +22,10 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+body{
+   
+}
+
 /*-------------- Header's styles -----------------*/
 header {
     height: 73px;
@@ -30,6 +34,8 @@ header {
     border-bottom: 1px solid var(--gray);
     justify-content: space-between;
     justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .menu_icon {
     display: none;
@@ -149,6 +155,11 @@ header {
 main {
     background-color: #FCFCFD;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    
 }
 
 .mobile_graph_option {
@@ -159,6 +170,7 @@ main {
     padding-inline-end: 112px;
     display: flex;
     flex-wrap: wrap;
+    max-width: 1440px;
 
 }
 .account_details__up {
@@ -257,6 +269,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 20px;
+    max-width: 1440px;
 }
 .card {
     width: 600px;
