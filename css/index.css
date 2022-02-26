@@ -592,6 +592,11 @@ main {
     border-bottom: 1px solid #EAECF0;
 }
 
+
+.deposits_details1 {
+    border-top: 1px solid #EAECF0;
+}
+
 .expiry_info {
     display: flex;
     align-items: center;
