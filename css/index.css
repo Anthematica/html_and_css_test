@@ -384,12 +384,17 @@ main {
     font-weight: 400;
     color: var(--gray--500)
 }
+
 .title {
     display: flex;
     justify-content: space-between;
     margin-block-end: 32px;
+}
+
+.graph h1 {
     font-size: 18px;
     font-weight: 500;
+    color: var(--gray-900)
 }
 
 .credit_cards {
